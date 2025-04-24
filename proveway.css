@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:3%;
+    gap: 3%;
     background: #FFFFFF;
     padding: 2
 }
@@ -116,7 +116,7 @@ h4 {
 .subcontainer2 {
     text-align: left;
     align-self: center;
-    width:28%;
+    width: 28%;
 }
 
 .subcontainer2 h5 {
@@ -152,8 +152,8 @@ select {
     background-color: #FF6B82;
     padding: 0 2px;
     position: relative;
-    left:0;
-    bottom:12px;
+    left: 0;
+    bottom: 30px;
 }
 
 del {
@@ -180,7 +180,7 @@ del {
     letter-spacing: 0em;
     text-align: left;
     color: #FF6B82;
-    width:58%
+    width: 58%
 }
 
 #TotalAmount {
@@ -191,7 +191,7 @@ del {
     letter-spacing: 0em;
     text-align: left;
     color: #000000;
-    width:42%
+    width: 42%
 }
 
 /* Button & Footer Section CSS */
@@ -237,3 +237,8 @@ footer p {
     margin-bottom: 2%
 }
 
+@media only screen and (max-width: 850px) {
+    #mostPopular {
+        bottom: 12px;
+    }
+}
